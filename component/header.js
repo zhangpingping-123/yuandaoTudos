@@ -1,0 +1,9 @@
+(function(Vue){
+    Vue.component("tudos-header",{
+        template:`
+        <header>
+            <h1>代办事项</h1>
+        </header>
+        `
+    })
+})(Vue)

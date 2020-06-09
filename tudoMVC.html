@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <style>
+        [v-cloak] {
+            display: none;
+        }
+    </style> -->
+    <link rel="stylesheet" href="./css/tudoMVC.css">
+</head>
+<body>
+    <div id="tudoapp" >
+        <!-- 备忘录标题开始 -->
+        <tudos-header></tudos-header>
+        <!-- 备忘录标题结束 -->
+        <!-- 备忘录列表开始 -->
+        <tudos-content></tudos-content>
+        <!-- 备忘录列表结束 -->
+
+    </div>
+</body> 
+<script src="https://cn.vuejs.org/js/vue.js"></script>
+<script src="./utils/utils.js"></script>
+<script src="./component/header.js"></script>
+<script src="./component/content.js"></script>
+<script src="./tudoMVC.js"></script>
+<script src="./router/router.js"></script>
+</html>
